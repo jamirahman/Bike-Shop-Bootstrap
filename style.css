@@ -35,3 +35,11 @@ header{
 
 }
 
+.hover-button:hover{
+    background-color: #DD4445;
+}
+.hover-button:hover small{
+    color: white;
+}
+
+
