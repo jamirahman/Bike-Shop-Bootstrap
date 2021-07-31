@@ -7,6 +7,10 @@ header{
     background-color: #264653;
 }
 
+.d-text-color{
+    color: #6C6C6C;
+}
+
 /* ----------------------------------Navbar----------------------------- */
 .nav-padding{
     padding-right: 10%;
@@ -42,4 +46,8 @@ header{
     color: white;
 }
 
+/* -------------------------------Clients Review------------------- */
 
+.rating-color{
+    color: #E77C40;
+}
