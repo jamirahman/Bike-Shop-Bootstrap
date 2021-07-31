@@ -10,6 +10,9 @@ header{
 .d-text-color{
     color: #6C6C6C;
 }
+a{
+    text-decoration: none;
+}
 
 /* ----------------------------------Navbar----------------------------- */
 .nav-padding{
@@ -18,6 +21,12 @@ header{
 
 .button-color{
     background-color: #E76F51;
+}
+
+/* --------------------------------Top-banner--------------------------- */
+
+.top-banner small, p{
+    color: #E0E0E0;
 }
 
 /* ----------------------------- Feature Heading------------------------- */
