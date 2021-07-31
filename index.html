@@ -32,9 +32,9 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
+                <!---------------For Large Navbar------------- -->
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav nav-padding my-4">
+                    <div class="navbar-nav nav-padding my-4 d-none d-lg-flex">
                         <a class="nav-link mx-1 text-white" aria-current="page" href="#"><small>Home</small></a>
                         <a class="nav-link mx-1 text-white" href="#"><small>Shop</small></a>
                         <a class="nav-link mx-1 text-white" href="#"><small>News</small></a>
@@ -42,6 +42,16 @@
                         <div class="d-flex align-items-center ms-lg-5">
                             <button
                                 class="btn  px-4 ms-lg-5 button-color text-white fw-bold"><small>Login</small></button>
+                        </div>
+                    </div>
+                    <!---------------For responsive Navbar------------- -->
+                    <div class="navbar-nav nav-padding mb-5 ms-4 d-lg-none align-items-center">
+                        <a class="nav-link mx-1 text-white fw-bold" aria-current="page" href="#"><small>Home</small></a>
+                        <a class="nav-link mx-1 text-white fw-bold" href="#"><small>Shop</small></a>
+                        <a class="nav-link mx-1 text-white fw-bold" href="#"><small>News</small></a>
+                        <a class="nav-link mx-1 text-white fw-bold" href="#"><small>Contact</small></a>
+                        <div class="d-flex align-items-center ms-lg-5">
+                            <button class="btn px-5 mt-3 button-color text-white fw-bold"><small>Login</small></button>
                         </div>
 
                     </div>
@@ -52,7 +62,7 @@
         <!-- ------------------------------- Top Banner --------------------------- -->
 
         <section class="container text-white">
-            <div class="row">
+            <div class="row px-4">
                 <div class="col-lg-6 col-md-12 d-flex align-items-center top-banner">
                     <div>
                         <p style="font-size: 12px;">Computer controlled digital trasistorized electronic advance</p>
@@ -101,7 +111,7 @@
         </section>
 
         <!-- -----------------------------Bike Description------------------------- -->
-        <h1 class="text-center fw-bold mt-5" style="color: black;">Latest News</h1>
+        <h1 class="text-center fw-bold my-5  " style="color: black;">Latest News</h1>
         <section class="container mt-5">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -117,9 +127,38 @@
                                     dolores ad iusto dolorem reprehenderit ipsa?</small></p>
                         </div>
                         <div class="card-footer border-0 bg-white">
-                            <button
-                                class="btn border border-rounded border-danger text-danger px-3 py-2 hover-button"><small>Read
-                                    More</small></button>
+                            <!-- Button trigger modal -->
+                            <button type="button"
+                                class="btn border border-rounded border-danger text-danger px-3 py-2 hover-button"
+                                data-bs-toggle="modal" data-bs-target="#ducati-bike">
+                                <small>Read
+                                    More</small>
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="ducati-bike" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title rating-color" id="exampleModalLabel">Ducati XDIAVEL
+                                                S-73</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad suscipit maxime
+                                            voluptate omnis iste dignissimos. Dolores reprehenderit veritatis ea
+                                            temporibus deleniti, excepturi quas voluptate. Obcaecati sed incidunt aut
+                                            magni aliquid?
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -136,9 +175,45 @@
                                     dolores ad iusto dolorem reprehenderit ipsa?</small></p>
                         </div>
                         <div class="card-footer border-0 bg-white">
-                            <button
-                                class="btn border border-rounded border-danger text-danger px-3 py-2 hover-button"><small>Read
-                                    More</small></button>
+                            <!-- Button trigger modal -->
+                            <button type="button"
+                                class="btn border border-rounded border-danger text-danger px-3 py-2 hover-button"
+                                data-bs-toggle="modal" data-bs-target="#scooters">
+                                <small>Read
+                                    More</small>
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="scooters" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title rating-color" id="exampleModalLabel">Motorcycles &
+                                                Scooters</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quae, id
+                                            illo aliquid facilis consequuntur perspiciatis assumenda est aspernatur
+                                            fugiat sequi sunt. Mollitia vitae dolores consequatur fuga fugit esse,
+                                            veniam quod quam maiores minus voluptates reiciendis voluptate optio
+                                            temporibus, nam laudantium ad, totam odit. Magnam tenetur iure excepturi rem
+                                            quasi itaque ex natus doloremque quos officia iste quo error dolore nisi,
+                                            nesciunt explicabo dolorum voluptatem aliquam repudiandae perferendis quae!
+                                            Similique quod recusandae, nihil cum ab quisquam aliquam eum beatae incidunt
+                                            doloribus nesciunt dignissimos, fuga omnis? Et magni consequuntur nesciunt
+                                            perspiciatis iste, similique, quam consectetur, numquam deleniti impedit
+                                            natus odio atque?
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -155,9 +230,57 @@
                                     dolores ad iusto dolorem reprehenderit ipsa?</small></p>
                         </div>
                         <div class="card-footer border-0 bg-white">
-                            <button
-                                class="btn border border-rounded border-danger text-danger px-3 py-2 hover-button"><small>Read
-                                    More</small></button>
+                            <!-- Button trigger modal -->
+                            <button type="button"
+                                class="btn border border-rounded border-danger text-danger px-3 py-2 hover-button"
+                                data-bs-toggle="modal" data-bs-target="#honda">
+                                <small>Read
+                                    More</small>
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="honda" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title rating-color" id="exampleModalLabel">2021 Honda
+                                                CBR500R</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos asperiores
+                                            facilis aliquam nemo, possimus laudantium, quis rem ullam, quaerat labore
+                                            aperiam quo dolor reprehenderit eum similique dolores soluta. Error
+                                            doloribus molestiae optio voluptatibus, accusantium sunt quo maxime modi
+                                            illo ullam, consectetur, distinctio dolorum quibusdam? Molestias eaque
+                                            dignissimos in beatae praesentium recusandae? Et, commodi animi molestias
+                                            eos nesciunt dolor nemo voluptas nisi repellat officia praesentium eveniet
+                                            porro recusandae numquam ratione. Quis perspiciatis nesciunt, autem
+                                            temporibus nostrum aliquid rem, porro eaque molestias id harum iste
+                                            corrupti. Error necessitatibus debitis consequatur sit ipsa consequuntur
+                                            possimus velit iure cumque fugiat illo deserunt molestiae veniam ea iusto,
+                                            autem tempore corrupti, quibusdam repudiandae architecto facere maxime
+                                            perspiciatis est? Sapiente neque, mollitia in est cupiditate soluta.
+                                            Repellendus suscipit perspiciatis ipsam facilis, temporibus voluptas
+                                            eligendi quia recusandae accusantium cupiditate ratione tempora dolore
+                                            necessitatibus. Deserunt, dolorem mollitia, delectus hic eum ad voluptate
+                                            minima harum nemo quae placeat voluptatum architecto aliquid blanditiis,
+                                            corrupti aliquam tenetur doloribus. Magni quidem, soluta accusantium
+                                            voluptate commodi tempora optio iste accusamus repellat libero ad nostrum
+                                            sit eius architecto harum unde deserunt culpa deleniti voluptatibus error
+                                            esse voluptatum animi. Nostrum, sint blanditiis accusantium, est facilis
+                                            assumenda illo esse neque ut fuga officiis, quo explicabo quas
+                                            necessitatibus.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -352,6 +475,7 @@
                     <div class="ms-2 mt-lg-0 mt-5">
                         <p class="text-white fw-lighter">Get the App</p>
                         <img src="images/app-store-icon.png" alt="" class="img-fluid w-50">
+
                     </div>
                 </div>
                 <p class="text-white ms-2 mt-5 fw-lighter d-lg-none text-center"><small>&copy;2021 bike. All rights
